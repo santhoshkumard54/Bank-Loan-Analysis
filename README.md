@@ -63,19 +63,6 @@ answer one core business question:
 
 ---
 
-## 📁 Project Structure
-
-```
-Bank-Loan-Analysis/
-│
-├── Bank_Loan_Analysis.ipynb   # Main analysis notebook
-├── Bank_Loan_Analysis.html    # HTML version for easy viewing
-├── bank_loan.xlsx             # Dataset
-└── README.md                  # Project documentation
-```
-
----
-
 ## 🔍 Analysis Workflow
 
 ### 1. Data Loading & Exploration
@@ -201,6 +188,6 @@ jupyter notebook Bank_Loan_Analysis.ipynb
 **Santhosh Kumar D**  
 Data Analyst | SQL • Tableau • Power BI • Python  
 📧 santhoshsword2k@gmail.com  
-🔗 [LinkedIn]([your-linkedin-url](https://www.linkedin.com/in/santhosh-kumar-sk54/))
+🔗[LinkedIn](https://www.linkedin.com/in/santhosh-kumar-sk54/)
 
 ---
