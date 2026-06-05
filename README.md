@@ -168,20 +168,6 @@ portfolio health as volume scales.
 
 ---
 
-## 🚀 How to Run
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/Bank-Loan-Analysis.git
-
-# Install dependencies
-pip install pandas numpy matplotlib seaborn plotly openpyxl
-
-# Open notebook
-jupyter notebook Bank_Loan_Analysis.ipynb
-```
-
----
 
 ## 👤 Author
 
