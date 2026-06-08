@@ -1,27 +1,23 @@
 # Bank-Loan-Analysis
-End-to-end EDA on 38,576 bank loan applications using Python  — uncovering default risk patterns, funding trends, and  regional insights to support credit decision-making.
 
-
-# 🏦 Bank Loan Analysis
+End-to-end loan portfolio analysis on 38,576 bank loan applications using SQL (PostgreSQL) and Python — uncovering default risk patterns, funding trends, and regional insights to support data-driven credit decision-making.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
+![SQL](https://img.shields.io/badge/SQL-PostgreSQL-orange)
 ![Pandas](https://img.shields.io/badge/Pandas-EDA-green)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 ---
 
+# 🏦 Bank Loan Analysis
+
 ## 📌 Problem Statement
 
-Banks issue thousands of loans every month — but not all 
-borrowers repay. Identifying patterns in loan defaults, 
-funding amounts, and borrower profiles is critical for 
-making smarter credit decisions and reducing financial risk.
+Banks issue thousands of loans every month — but not all borrowers repay. Identifying patterns in loan defaults, funding amounts, and borrower profiles is critical for making smarter credit decisions and reducing financial risk.
 
-This project analyses 38,576 real loan applications to 
-answer one core business question:
+This project analyzes 38,576 real loan applications using SQL and Python to answer one core business question:
 
-> **What factors drive loan defaults — and where should 
-> the bank focus to reduce risk?**
+> **What factors drive loan defaults — and where should the bank focus to reduce risk?**
 
 ---
 
@@ -33,7 +29,7 @@ answer one core business question:
 | Rows | 38,576 loan applications |
 | Columns | 24 features |
 | Period | January 2021 – December 2021 |
-| Key Fields | Loan status, purpose, grade, income, DTI, state |
+| Key Fields | Loan Status, Purpose, Grade, Income, DTI, State |
 
 ---
 
@@ -53,29 +49,40 @@ answer one core business question:
 
 | Tool | Purpose |
 |---|---|
-| Python | Core programming language |
-| Pandas | Data manipulation and analysis |
-| NumPy | Numerical computations |
-| Matplotlib | Static visualizations |
-| Seaborn | Statistical charts |
-| Plotly Express | Interactive treemap charts |
-| Jupyter Notebook | Development environment |
+| SQL (PostgreSQL) | KPI Reporting & Business Analysis |
+| Python | Core Programming Language |
+| Pandas | Data Manipulation and Analysis |
+| NumPy | Numerical Computations |
+| Matplotlib | Static Visualizations |
+| Seaborn | Statistical Charts |
+| Plotly Express | Interactive Treemap Charts |
+| Jupyter Notebook | Development Environment |
 
 ---
 
 ## 🔍 Analysis Workflow
 
-### 1. Data Loading & Exploration
+### 1. SQL KPI Analysis
+
+- Imported and structured loan application data in PostgreSQL
+- Created KPI queries for loan applications, funded amounts, repayments, loan status, and regional analysis
+- Generated MTD business metrics and portfolio summaries
+- Performed aggregations and business reporting using SQL
+
+### 2. Data Loading & Exploration
+
 - Loaded 38,576 records with 24 columns
 - Inspected data types, null values, and statistical summary
 - Identified key fields for analysis
 
-### 2. Data Cleaning
+### 3. Data Cleaning
+
 - Checked and handled missing values
-- Verified data types — datetime columns properly parsed
+- Verified data types
 - Confirmed no duplicate records
 
-### 3. KPI Metrics Calculated
+### 4. KPI Metrics Calculated
+
 - Total Loan Applications: **38,576**
 - MTD Applications (Dec 2021): **4,314**
 - Total Funded Amount: **$435.76M**
